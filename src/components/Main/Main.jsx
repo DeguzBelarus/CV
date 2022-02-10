@@ -23,7 +23,7 @@ const Main = () => {
 
         <div className="languages">
           <h4>Languages:</h4>
-          <p>English: ~B1 (in progress)</p>
+          <p>English: A2 (in progress)</p>
           <p>Russian/Belarusian: native</p>
         </div>
       </div>
