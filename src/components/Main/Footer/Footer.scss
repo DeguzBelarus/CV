@@ -1,0 +1,32 @@
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  .qr {
+    width: 100px;
+  }
+
+  .square {
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+    box-sizing: border-box;
+    border: 3px solid black;
+    border-top-color: transparent;
+    border-left-color: transparent;
+  }
+}
+
+@media print {
+  .square {
+    margin-left: 555px;
+  }
+}
+
+@media screen and (min-width: 280px) {
+  .square {
+    margin-left: 605px;
+  }
+}

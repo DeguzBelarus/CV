@@ -1,0 +1,50 @@
+header {
+  display: flex;
+  position: relative;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px;
+
+  .round {
+    width: 790px;
+    height: 570px;
+    position: absolute;
+    top: -300px;
+    left: -300px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    box-shadow: 0 0 15px 1px black;
+  }
+
+  .avatar-image {
+    width: 220px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    box-shadow: 0 0 8px 1px black;
+    transform: rotate(10deg);
+  }
+
+  .headers {
+    margin-left: 5px;
+  }
+
+  .socials {
+    margin-top: 30px;
+    margin-left: 70px;
+
+    .socials-item {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin-bottom: 10px;
+
+      h5 {
+        margin-left: 5px;
+      }
+    }
+
+    .socials-image {
+      width: 30px;
+    }
+  }
+}
