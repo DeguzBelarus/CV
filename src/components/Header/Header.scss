@@ -26,6 +26,117 @@ header {
 
   .headers {
     margin-left: 5px;
+
+    .letter {
+      display: inline-block;
+      font-size: 2em;
+      font-weight: bolder;
+    }
+
+    .l1 {
+      transform: translateY(730px) translateX(170px) rotate(100deg);
+      animation-name: normalize;
+      animation-duration: 3s;
+      animation-fill-mode: forwards;
+    }
+    .l2 {
+      transform: translateY(730px) translateX(150px) rotate(100deg);
+      animation-name: normalize;
+      animation-duration: 3s;
+      animation-fill-mode: forwards;
+      animation-delay: 0.2s;
+    }
+    .l3 {
+      transform: translateY(730px) translateX(130px) rotate(100deg);
+      animation-name: normalize;
+      animation-duration: 3s;
+      animation-fill-mode: forwards;
+      animation-delay: 0.4s;
+    }
+    .l4 {
+      transform: translateY(730px) translateX(120px) rotate(100deg);
+      animation-name: normalize;
+      animation-duration: 3s;
+      animation-fill-mode: forwards;
+      animation-delay: 0.6s;
+    }
+    .l5 {
+      margin-right: 5px;
+      transform: translateY(730px) translateX(100px) rotate(100deg);
+      animation-name: normalize;
+      animation-duration: 3s;
+      animation-fill-mode: forwards;
+      animation-delay: 0.8s;
+    }
+    .l6 {
+      transform: translateY(730px) translateX(72px) rotate(100deg);
+      animation-name: normalize;
+      animation-duration: 3s;
+      animation-fill-mode: forwards;
+      animation-delay: 1s;
+    }
+    .l7 {
+      transform: translateY(730px) translateX(62px) rotate(100deg);
+      animation-name: normalize;
+      animation-duration: 3s;
+      animation-fill-mode: forwards;
+      animation-delay: 1.2s;
+    }
+    .l8 {
+      transform: translateY(730px) translateX(40px) rotate(100deg);
+      animation-name: normalize;
+      animation-duration: 3s;
+      animation-fill-mode: forwards;
+      animation-delay: 1.4s;
+    }
+    .l9 {
+      transform: translateY(730px) translateX(25px) rotate(100deg);
+      animation-name: normalize;
+      animation-duration: 3s;
+      animation-fill-mode: forwards;
+      animation-delay: 1.6s;
+    }
+    .l10 {
+      transform: translateY(730px) translateX(15px) rotate(100deg);
+      animation-name: normalize;
+      animation-duration: 3s;
+      animation-fill-mode: forwards;
+      animation-delay: 1.8s;
+    }
+    .l11 {
+      transform: translateY(730px) translateX(1px) rotate(100deg);
+      animation-name: normalize;
+      animation-duration: 3s;
+      animation-fill-mode: forwards;
+      animation-delay: 2s;
+    }
+    .l12 {
+      transform: translateY(730px) translateX(-15px) rotate(100deg);
+      animation-name: normalize;
+      animation-duration: 3s;
+      animation-fill-mode: forwards;
+      animation-delay: 2.2s;
+    }
+    .l13 {
+      transform: translateY(730px) translateX(-28px) rotate(100deg);
+      animation-name: normalize;
+      animation-duration: 3s;
+      animation-fill-mode: forwards;
+      animation-delay: 2.4s;
+    }
+    .l14 {
+      transform: translateY(730px) translateX(-47px) rotate(100deg);
+      animation-name: normalize;
+      animation-duration: 3s;
+      animation-fill-mode: forwards;
+      animation-delay: 2.6s;
+    }
+
+    .profession {
+      animation-name: flash;
+      animation-duration: 2.5s;
+      animation-delay: 5.6s;
+    }
   }
 
   .socials {
@@ -46,5 +157,23 @@ header {
     .socials-image {
       width: 30px;
     }
+  }
+}
+
+@keyframes normalize {
+  100% {
+    transform: none;
+  }
+}
+
+@keyframes flash {
+  0% {
+    color: black;
+  }
+  50% {
+    color: gold;
+  }
+  100% {
+    color: black;
   }
 }
