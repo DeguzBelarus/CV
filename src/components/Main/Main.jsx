@@ -12,6 +12,7 @@ const Main = () => {
           <p>React.js</p>
           <p>Node.js (basics)</p>
           <p>Express.js (basics)</p>
+          <p>Socket.io (basics)</p>
           <p>Git</p>
         </div>
 
@@ -19,6 +20,9 @@ const Main = () => {
           <h4>Soft skills:</h4>
           <p>Creativity</p>
           <p>Adaptability</p>
+          <p>Critical thinking</p>
+          <p>Punctuality</p>
+          <p>Quick learning</p>
         </div>
 
         <div className="languages">

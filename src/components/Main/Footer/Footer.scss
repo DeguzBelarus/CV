@@ -5,13 +5,9 @@ footer {
   align-items: center;
 
   .qr {
-    width: 100px;
   }
 
   .square {
-    width: 50px;
-    height: 50px;
-    margin-top: 30px;
     box-sizing: border-box;
     border: 3px solid black;
     border-top-color: transparent;
@@ -20,13 +16,60 @@ footer {
 }
 
 @media print {
-  .square {
-    margin-left: 555px;
+}
+
+@media screen and (min-width: 320px) {
+  footer {
+    position: relative;
+
+    .qr {
+      width: 80px;
+    }
+
+    .square {
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      box-sizing: border-box;
+      border: 3px solid black;
+      border-top-color: transparent;
+      border-left-color: transparent;
+    }
   }
 }
 
-@media screen and (min-width: 280px) {
-  .square {
-    margin-left: 605px;
+@media screen and (min-width: 1024px) {
+  footer {
+    width: 753px;
+
+    .qr {
+      width: 100px;
+    }
+
+    .square {
+      width: 50px;
+      height: 50px;
+    }
+  }
+}
+
+@media print {
+  footer {
+    width: 753px;
+    position: relative;
+
+    .qr {
+      width: 100px;
+    }
+
+    .square {
+      width: 50px;
+      height: 50px;
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+    }
   }
 }

@@ -1,23 +1,19 @@
 header {
   display: flex;
-  position: relative;
-  justify-content: flex-start;
-  align-items: flex-start;
   padding: 10px;
 
   .round {
-    width: 790px;
-    height: 570px;
-    position: absolute;
-    top: -300px;
-    left: -300px;
+    position: absolute; 
     box-sizing: border-box;
     border-radius: 50%;
     box-shadow: 0 0 15px 1px black;
   }
 
+  .upper-block {
+    display: flex;
+  }
+
   .avatar-image {
-    width: 220px;
     box-sizing: border-box;
     border-radius: 50%;
     box-shadow: 0 0 8px 1px black;
@@ -34,27 +30,23 @@ header {
     }
 
     .l1 {
-      transform: translateY(730px) translateX(170px) rotate(100deg);
       animation-name: normalize;
       animation-duration: 3.5s;
       animation-fill-mode: forwards;
     }
     .l2 {
-      transform: translateY(730px) translateX(150px) rotate(100deg);
       animation-name: normalize;
       animation-duration: 3s;
       animation-fill-mode: forwards;
       animation-delay: 0.2s;
     }
     .l3 {
-      transform: translateY(730px) translateX(130px) rotate(100deg);
       animation-name: normalize;
       animation-duration: 3s;
       animation-fill-mode: forwards;
       animation-delay: 0.4s;
     }
     .l4 {
-      transform: translateY(730px) translateX(120px) rotate(100deg);
       animation-name: normalize;
       animation-duration: 3s;
       animation-fill-mode: forwards;
@@ -62,70 +54,60 @@ header {
     }
     .l5 {
       margin-right: 5px;
-      transform: translateY(730px) translateX(100px) rotate(100deg);
       animation-name: normalize;
       animation-duration: 3s;
       animation-fill-mode: forwards;
       animation-delay: 0.8s;
     }
     .l6 {
-      transform: translateY(730px) translateX(72px) rotate(100deg);
       animation-name: normalize;
       animation-duration: 3.5s;
       animation-fill-mode: forwards;
       animation-delay: 1s;
     }
     .l7 {
-      transform: translateY(730px) translateX(62px) rotate(100deg);
       animation-name: normalize;
       animation-duration: 3s;
       animation-fill-mode: forwards;
       animation-delay: 1.2s;
     }
     .l8 {
-      transform: translateY(730px) translateX(40px) rotate(100deg);
       animation-name: normalize;
       animation-duration: 3s;
       animation-fill-mode: forwards;
       animation-delay: 1.4s;
     }
     .l9 {
-      transform: translateY(730px) translateX(25px) rotate(100deg);
       animation-name: normalize;
       animation-duration: 3s;
       animation-fill-mode: forwards;
       animation-delay: 1.6s;
     }
     .l10 {
-      transform: translateY(730px) translateX(15px) rotate(100deg);
       animation-name: normalize;
       animation-duration: 3s;
       animation-fill-mode: forwards;
       animation-delay: 1.8s;
     }
     .l11 {
-      transform: translateY(730px) translateX(1px) rotate(100deg);
       animation-name: normalize;
       animation-duration: 3s;
       animation-fill-mode: forwards;
       animation-delay: 2s;
     }
     .l12 {
-      transform: translateY(730px) translateX(-15px) rotate(100deg);
       animation-name: normalize;
       animation-duration: 3s;
       animation-fill-mode: forwards;
       animation-delay: 2.2s;
     }
     .l13 {
-      transform: translateY(730px) translateX(-28px) rotate(100deg);
       animation-name: normalize;
       animation-duration: 3s;
       animation-fill-mode: forwards;
       animation-delay: 2.4s;
     }
     .l14 {
-      transform: translateY(730px) translateX(-47px) rotate(100deg);
       animation-name: normalize;
       animation-duration: 3s;
       animation-fill-mode: forwards;
@@ -140,8 +122,7 @@ header {
   }
 
   .socials {
-    margin-top: 30px;
-    margin-left: 70px;
+    display: flex;
 
     .socials-item {
       display: flex;
@@ -175,5 +156,319 @@ header {
   }
   100% {
     color: black;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  header {
+    flex-direction: column;
+    padding-bottom: 0;
+
+    .round {
+      width: 565px;
+      height: 400px;
+      position: absolute;
+      top: -220px;
+      left: -250px;
+      box-sizing: border-box;
+      border-radius: 50%;
+      box-shadow: 0 0 15px 1px black;
+    }
+
+    .avatar-weapper {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+
+      .avatar-image {
+        width: 140px;
+      }
+    }
+
+    .headers {
+      min-width: 145px;
+      margin-left: 5px;
+
+      .letter {
+        display: inline-block;
+        font-size: 19px;
+        font-weight: bolder;
+      }
+
+      .l1 {
+        transform: translateY(1180px) translateX(20px) rotate(100deg);
+      }
+      .l2 {
+        transform: translateY(1180px) translateX(8px) rotate(100deg);
+      }
+      .l3 {
+        transform: translateY(1180px) translateX(2px) rotate(100deg);
+      }
+      .l4 {
+        transform: translateY(1180px) translateX(-7px) rotate(100deg);
+      }
+      .l5 {
+        transform: translateY(1180px) translateX(-15px) rotate(100deg);
+      }
+      .l6 {
+        transform: translateY(1180px) translateX(-35px) rotate(100deg);
+      }
+      .l7 {
+        transform: translateY(1180px) translateX(-42px) rotate(100deg);
+      }
+      .l8 {
+        transform: translateY(1180px) translateX(-53px) rotate(100deg);
+      }
+      .l9 {
+        transform: translateY(1180px) translateX(-60px) rotate(100deg);
+      }
+      .l10 {
+        transform: translateY(1180px) translateX(-69px) rotate(100deg);
+      }
+      .l11 {
+        transform: translateY(1180px) translateX(-79px) rotate(100deg);
+      }
+      .l12 {
+        transform: translateY(1180px) translateX(-85px) rotate(100deg);
+      }
+      .l13 {
+        transform: translateY(1180px) translateX(-95px) rotate(100deg);
+      }
+      .l14 {
+        transform: translateY(1180px) translateX(-103px) rotate(100deg);
+      }
+
+      .profession {
+        font-size: 14px;
+      }
+    }
+
+    .socials {
+      width: 100%;
+      margin-top: 50px;
+      justify-content: space-around;
+
+      .socials-item {       
+        h5 {
+          font-size: 9px;
+          margin-left: 5px;
+        }
+      }
+
+      .socials-image {
+        width: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    flex-direction: row;
+    padding-bottom: 0;
+
+    .round {
+      width: 790px;
+      height: 570px;
+      position: absolute;
+      top: -300px;
+      left: -300px;
+      box-sizing: border-box;
+      border-radius: 50%;
+      box-shadow: 0 0 15px 1px black;
+    }
+
+    .avatar-weapper {
+      width: 220px;
+      height: 220px;
+      border-radius: 50%;
+
+      .avatar-image {
+        width: 220px;
+      }
+    }
+
+    .headers {
+      min-width: 220px;
+      margin-left: 5px;
+
+      .letter {
+        display: inline-block;
+        font-size: 30px;
+        font-weight: bolder;
+      }
+
+      .l1 {
+        transform: translateY(1180px) translateX(20px) rotate(100deg);
+      }
+      .l2 {
+        transform: translateY(1180px) translateX(8px) rotate(100deg);
+      }
+      .l3 {
+        transform: translateY(1180px) translateX(2px) rotate(100deg);
+      }
+      .l4 {
+        transform: translateY(1180px) translateX(-7px) rotate(100deg);
+      }
+      .l5 {
+        transform: translateY(1180px) translateX(-15px) rotate(100deg);
+      }
+      .l6 {
+        transform: translateY(1180px) translateX(-35px) rotate(100deg);
+      }
+      .l7 {
+        transform: translateY(1180px) translateX(-42px) rotate(100deg);
+      }
+      .l8 {
+        transform: translateY(1180px) translateX(-53px) rotate(100deg);
+      }
+      .l9 {
+        transform: translateY(1180px) translateX(-60px) rotate(100deg);
+      }
+      .l10 {
+        transform: translateY(1180px) translateX(-69px) rotate(100deg);
+      }
+      .l11 {
+        transform: translateY(1180px) translateX(-79px) rotate(100deg);
+      }
+      .l12 {
+        transform: translateY(1180px) translateX(-85px) rotate(100deg);
+      }
+      .l13 {
+        transform: translateY(1180px) translateX(-95px) rotate(100deg);
+      }
+      .l14 {
+        transform: translateY(1180px) translateX(-103px) rotate(100deg);
+      }
+
+      .profession {
+        font-size: 20px;
+      }
+    }
+
+    .socials {
+      height: 30px;
+      flex-direction: column;
+      justify-content: center;
+      gap: 5px;
+      margin-top: 90px;
+      margin-left: 100px;
+
+      .socials-item {
+        h5 {
+          font-size: 0.83em;
+          margin-left: 5px;
+        }
+      }
+
+      .socials-image {
+        width: 30px;
+      }
+    }
+  }
+}
+
+@media print {
+  header {
+    flex-direction: row;
+    padding-bottom: 0;
+    .round {
+      width: 790px;
+      height: 570px;
+      position: absolute;
+      top: -300px;
+      left: -300px;
+      box-sizing: border-box;
+      border-radius: 50%;
+      box-shadow: 0 0 15px 1px black;
+    }
+
+    .avatar-weapper {
+      width: 220px;
+      height: 220px;
+      border-radius: 50%;
+
+      .avatar-image {
+        width: 220px;
+      }
+    }
+
+    .headers {
+      min-width: 220px;
+      margin-left: 5px;
+
+      .letter {
+        display: inline-block;
+        font-size: 30px;
+        font-weight: bolder;
+      }
+
+      .l1 {
+        transform: translateY(1180px) translateX(20px) rotate(100deg);
+      }
+      .l2 {
+        transform: translateY(1180px) translateX(8px) rotate(100deg);
+      }
+      .l3 {
+        transform: translateY(1180px) translateX(2px) rotate(100deg);
+      }
+      .l4 {
+        transform: translateY(1180px) translateX(-7px) rotate(100deg);
+      }
+      .l5 {
+        transform: translateY(1180px) translateX(-15px) rotate(100deg);
+      }
+      .l6 {
+        transform: translateY(1180px) translateX(-35px) rotate(100deg);
+      }
+      .l7 {
+        transform: translateY(1180px) translateX(-42px) rotate(100deg);
+      }
+      .l8 {
+        transform: translateY(1180px) translateX(-53px) rotate(100deg);
+      }
+      .l9 {
+        transform: translateY(1180px) translateX(-60px) rotate(100deg);
+      }
+      .l10 {
+        transform: translateY(1180px) translateX(-69px) rotate(100deg);
+      }
+      .l11 {
+        transform: translateY(1180px) translateX(-79px) rotate(100deg);
+      }
+      .l12 {
+        transform: translateY(1180px) translateX(-85px) rotate(100deg);
+      }
+      .l13 {
+        transform: translateY(1180px) translateX(-95px) rotate(100deg);
+      }
+      .l14 {
+        transform: translateY(1180px) translateX(-103px) rotate(100deg);
+      }
+
+      .profession {
+        font-size: 20px;
+      }
+    }
+
+    .socials {
+      width: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 5px;
+      margin-top: 90px;
+      margin-left: 100px;
+
+      .socials-item {
+        h5 {
+          font-size: 0.83em;
+          margin-left: 5px;
+        }
+      }
+
+      .socials-image {
+        width: 30px;
+      }
+    }
   }
 }

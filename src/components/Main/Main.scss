@@ -1,6 +1,5 @@
 main {
   display: flex;
-  margin-top: 55px;
   padding: 10px;
 
   .skills {
@@ -51,12 +50,10 @@ main {
   }
 
   .bio {
-    width: 530px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 15px;
     padding: 12px;
     box-sizing: border-box;
     border: 3px solid black;
@@ -114,6 +111,149 @@ main {
       border-top-color: transparent;
       border-bottom-color: transparent;
       border-radius: 15px;
+    }
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 424px) {
+  main {
+    flex-direction: column;
+
+    .skills {
+      width: 100%;
+
+      .skills-hard {
+        width: 100%;
+      }
+
+      .skills-soft {
+        width: 100%;
+      }
+
+      .languages {
+        width: 100%;
+      }
+    }
+
+    .bio {
+      width: 100%;
+
+      .about {
+        width: 100%;
+      }
+
+      .education {
+        width: 100%;
+      }
+
+      .experience {
+        width: 100%;
+      }
+
+      .certificates {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  main {
+    flex-direction: column;
+
+    .skills {
+      flex-wrap: wrap;
+
+      .skills-hard {
+        width: 48%;
+        float: left;
+        margin-right: 15px;
+      }
+
+      .skills-soft {
+        width: 48%;
+        height: 180px;
+      }
+
+      .languages {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  main {
+    flex-direction: row;
+    margin-top: 50px;
+
+    .skills {
+      width: 220px;
+
+      .skills-hard {
+        width: 100%;
+      }
+
+      .skills-soft {
+        width: 100%;
+      }
+
+      .languages {
+        width: 100%;
+      }
+    }
+
+    .bio {
+      width: 520px;
+      margin-left: 15px;
+
+      .about {
+        width: 100%;
+      }
+
+      .education {
+        width: 100%;
+      }
+
+      .experience {
+        width: 100%;
+      }
+
+      .certificates {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  main {
+    flex-direction: row;
+    margin-top: 50px;
+
+    .skills {
+      width: 220px;
+    }
+
+    .bio {
+      width: 500px;
+      margin-left: 15px;
+    }
+  }
+}
+
+@media print {
+  main {
+    flex-direction: row;
+    margin-top: 50px;
+
+    .skills {
+      width: 220px;
+    }
+
+    .bio {
+      width: 500px;
+      margin-left: 15px;
     }
   }
 }
