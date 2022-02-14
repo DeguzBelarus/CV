@@ -10,9 +10,9 @@ const Main = () => {
           <p>CSS3, SCSS</p>
           <p>HTML5</p>
           <p>React.js</p>
-          <p>Node.js (basics)</p>
-          <p>Express.js (basics)</p>
-          <p>Socket.io (basics)</p>
+          <p>Node.js (basic)</p>
+          <p>Express.js (basic)</p>
+          <p>Socket.io (basic)</p>
           <p>Git</p>
         </div>
 
