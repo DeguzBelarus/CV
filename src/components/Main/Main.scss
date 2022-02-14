@@ -124,11 +124,14 @@ main {
       width: 100%;
 
       .skills-hard {
-        width: 100%;
+        width: 49%;
+        float: left;
+        margin-right: 5px;
       }
 
       .skills-soft {
-        width: 100%;
+        width: 49%;
+        height: 180px;
       }
 
       .languages {
@@ -166,13 +169,13 @@ main {
       flex-wrap: wrap;
 
       .skills-hard {
-        width: 48%;
+        width: 49%;
         float: left;
-        margin-right: 15px;
+        margin-right: 5px;
       }
 
       .skills-soft {
-        width: 48%;
+        width: 49%;
         height: 180px;
       }
 
