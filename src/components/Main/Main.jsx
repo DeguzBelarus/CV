@@ -59,8 +59,11 @@ const Main = () => {
 
         <div className="experience">
           <h4>Experience:</h4>
-          <p>• Tax office (tax inspector), 2008 - 2021</p>
-          <p>• Hospital "Cardiology" (economist), 2005 - 2006</p>
+          <p>• Tax of&shy;fi&shy;ce (tax ins&shy;pec&shy;tor), 2008 - 2021</p>
+          <p>
+            • Hos&shy;pi&shy;tal "Car&shy;dio&shy;lo&shy;gy"
+            (eco&shy;no&shy;mist), 2005 - 2006
+          </p>
         </div>
 
         <div className="certificates">

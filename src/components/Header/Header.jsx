@@ -33,34 +33,58 @@ const Header = () => {
       </div>
 
       <div className="socials">
-        <div className="socials-item">
-          <img
-            src={linkedin}
-            className="socials-image"
-            alt="linkedin picture"
-          />
-          <h5>Anton Dektyarev</h5>
-        </div>
-        <div className="socials-item">
-          <img src={github} className="socials-image" alt="github picture" />
-          <h5>DeguzBelarus</h5>
-        </div>
-        <div className="socials-item">
-          <img
-            src={instagram}
-            className="socials-image"
-            alt="instagram picture"
-          />
-          <h5>@deguz.belarus</h5>
-        </div>
-        <div className="socials-item">
-          <img
-            src={location}
-            className="socials-image"
-            alt="location picture"
-          />
-          <h5>Vitebsk, Belarus</h5>
-        </div>
+        <a
+          href="https://www.linkedin.com/in/deguzbelarus"
+          target="_blank"
+          rel="noopener"
+        >
+          <div className="socials-item">
+            <img
+              src={linkedin}
+              className="socials-image"
+              alt="linkedin picture"
+            />
+            <h5>Anton Dektyarev</h5>
+          </div>
+        </a>
+        <a
+          href="https://github.com/DeguzBelarus"
+          target="_blank"
+          rel="noopener"
+        >
+          <div className="socials-item">
+            <img src={github} className="socials-image" alt="github picture" />
+            <h5>DeguzBelarus</h5>
+          </div>
+        </a>
+        <a
+          href="https://www.instagram.com/deguz.belarus"
+          target="_blank"
+          rel="noopener"
+        >
+          <div className="socials-item">
+            <img
+              src={instagram}
+              className="socials-image"
+              alt="instagram picture"
+            />
+            <h5>@deguz.belarus</h5>
+          </div>
+        </a>
+        <a
+          href="https://maps.google.com?saddr=Current+Location&daddr=55.180819900433, 30.18773639963402"
+          target="_blank"
+          rel="noopener"
+        >
+          <div className="socials-item">
+            <img
+              src={location}
+              className="socials-image"
+              alt="location picture"
+            />
+            <h5>Vitebsk, Belarus</h5>
+          </div>
+        </a>
       </div>
     </header>
   );
