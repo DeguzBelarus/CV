@@ -11,7 +11,7 @@ const Main = () => {
           <p>HTML5</p>
           <p>React.js</p>
           <p>Node.js (basic)</p>
-          <p>Express.js (basic)</p>
+          <p>Express (basic)</p>
           <p>Socket.io (basic)</p>
           <p>Git</p>
         </div>
