@@ -28,7 +28,7 @@ const Main = () => {
         <div className="languages">
           <h4>Languages:</h4>
           <p>English: A2 (in progress)</p>
-          <p>Russian/Belarusian: native</p>
+          <p>Rus&shy;si&shy;an/Be&shy;la&shy;ru&shy;sian: na&shy;ti&shy;ve</p>
         </div>
       </div>
 
@@ -42,7 +42,9 @@ const Main = () => {
 
         <div className="education">
           <h4>Education:</h4>
-          <p>• SKILLUP ("Front end De&shy;ve&shy;lo&shy;per"), 2021-2022</p>
+          <p>
+            • SKILLUP ("Front-&shy;end De&shy;ve&shy;lo&shy;per"), 2021-2022
+          </p>
           <p>
             • Fit&shy;ness aca&shy;de&shy;my RB ("Gym inst&shy;ruc&shy;tor"),
             2020-2021
@@ -61,15 +63,18 @@ const Main = () => {
           <h4>Experience:</h4>
           <p>• Tax of&shy;fi&shy;ce (tax ins&shy;pec&shy;tor), 2008 - 2021</p>
           <p>
-            • Hos&shy;pi&shy;tal "Car&shy;dio&shy;lo&shy;gy"
-            (eco&shy;no&shy;mist), 2005 - 2006
+            • RTMA "Car&shy;dio&shy;lo&shy;gy" (eco&shy;no&shy;mist), 2005 -
+            2006
           </p>
         </div>
 
         <div className="certificates">
           <h4>Certificates:</h4>
-          <p>• SKILLUP - "Frontend Developer", Feb 2022</p>
-          <p>• Fitness Academy RB - "Gym instructor", Jan 2021</p>
+          <p>• SKILLUP - "Front-&shy;end De&shy;ve&shy;lo&shy;per", Feb 2022</p>
+          <p>
+            • Fit&shy;ness Aca&shy;de&shy;my RB - "Gym inst&shy;ruc&shy;tor",
+            Jan 2021
+          </p>
         </div>
       </div>
     </main>
