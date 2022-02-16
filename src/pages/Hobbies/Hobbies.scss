@@ -1,5 +1,11 @@
-.info-about {
+.info-hobbies {
+  width: calc(100vw - 20px);
+  max-width: 500px;
   padding: 10px;
+  margin: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 2px solid black;
 
   h1 {
     &::first-letter {
