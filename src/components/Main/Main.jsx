@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Main.scss";
 
 const Main = () => {
@@ -37,7 +38,17 @@ const Main = () => {
 
         <div className="about">
           <h4>About Me:</h4>
-          <p>Hello</p>
+          <p>
+            Hello, you can familiarize yourself with{" "}
+            <Link to={"/about"} className="pagelink">
+              “about me”
+            </Link>{" "}
+            and{" "}
+            <Link to={"/hobbies"} className="pagelink">
+              “my hobbies”
+            </Link>{" "}
+            information.
+          </p>
         </div>
 
         <div className="education">
