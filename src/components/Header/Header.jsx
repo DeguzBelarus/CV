@@ -28,7 +28,7 @@ const Header = () => {
           <span className="letter l12">r</span>
           <span className="letter l13">e</span>
           <span className="letter l14">v</span>
-          <h3 className="profession">Frontend developer</h3>
+          <h3 className="profession">Frontend Developer</h3>
         </div>
       </div>
 
