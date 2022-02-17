@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Hobbies.scss";
 
 const Hobbies = () => {
@@ -21,6 +22,9 @@ const Hobbies = () => {
       <p className="hobbies-paragraph">
         In addition, I like animals, especially cats and fish :)
       </p>
+      <Link to={"/"}>
+        <span className="return">⤺</span>
+      </Link>
     </div>
   );
 };

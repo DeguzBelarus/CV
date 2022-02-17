@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./AboutMe.scss";
 
 const AboutMe = () => {
@@ -35,6 +36,9 @@ const AboutMe = () => {
         Association “Cardiology” from 2005 till 2006.
       </p>
       <p className="about-paragraph">With best regards, Anton Dektyarev.</p>
+      <Link to={"/"}>
+        <span className="return">⤺</span>
+      </Link>
     </div>
   );
 };

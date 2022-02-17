@@ -1,6 +1,7 @@
 .info-hobbies {
   width: calc(100vw - 20px);
   max-width: 500px;
+  position: relative;
   padding: 10px;
   margin: 10px;
   box-sizing: border-box;
@@ -13,9 +14,16 @@
     }
   }
 
-  .about-paragraph {
+  .hobbies-paragraph {
     width: 100%;
     max-width: 500px;
     margin-bottom: 2px;
+  }
+
+  .return {
+    position: absolute;
+    right: 5px;
+    bottom: 2px;
+    font-weight: bold;
   }
 }
