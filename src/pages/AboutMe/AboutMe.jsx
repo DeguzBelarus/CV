@@ -25,9 +25,9 @@ const AboutMe = () => {
         yourself with them.
       </p>
       <p className="about-paragraph">
-        I graduated from Vitebsk State Technological University by specialty
+        I graduated from Vitebsk State Technological University with a degree in
         “Commercial activity” (economist) in 2008. Also, I graduated from
-        Vitebsk State Polytechnic College by specialty “Commercial activity”
+        Vitebsk State Polytechnic College with a degree in “Commercial activity”
         (economist) in 2004.
       </p>
       <p className="about-paragraph">
