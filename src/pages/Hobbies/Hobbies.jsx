@@ -9,15 +9,15 @@ const Hobbies = () => {
         Hello, I have some hobbies in my life.
       </p>
       <p className="hobbies-paragraph">
-        For example, I like to do sport in a Gym. I’m doing it from 2002. I have
-        a bench press and dumbbells, barbells at home. I do sport at home, in
-        the Gym and at workout place in the park. I lead a healthy lifestyle. I
-        graduated from Gym Instructor courses in 2021 for myself.
+        For example, I like to exercise in the gym. I have been doing sport
+        since 2002. I have a bench press, dumbbells and barbells at home. I do
+        sport at home, in the gym and in the park. I lead a healthy lifestyle. I
+        completed gym Instructor courses in 2021.
       </p>
       <p className="hobbies-paragraph">
-        Also I’m interested in computer’s hardware and software (such as some
-        programs and computer games). Sometimes I like to build a computer or to
-        play computer games different genres.
+        I’m also interested in computer hardware and software (for instance,
+        some programs and computer games). Sometimes I like to build a computer
+        or play computer games of different genres.
       </p>
       <p className="hobbies-paragraph">
         In addition, I like animals, especially cats and fish :)

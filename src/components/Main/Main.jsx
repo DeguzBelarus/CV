@@ -57,7 +57,7 @@ const Main = () => {
             • SKILLUP ("Front-&shy;end De&shy;ve&shy;lo&shy;per"), 2021-2022
           </p>
           <p>
-            • Fit&shy;ness aca&shy;de&shy;my RB ("Gym inst&shy;ruc&shy;tor"),
+            • Fit&shy;ness aca&shy;de&shy;my ("Gym inst&shy;ruc&shy;tor"),
             2020-2021
           </p>
           <p>
@@ -65,7 +65,7 @@ const Main = () => {
             Uni&shy;ver&shy;si&shy;ty ("Eco&shy;no&shy;mist"), 2004-2008
           </p>
           <p>
-            • Vi&shy;tebsk Sta&shy;te Po&shy;ly&shy;tech&shy;ni&shy;cal
+            • Vi&shy;tebsk Sta&shy;te Po&shy;ly&shy;tech&shy;nic
             Col&shy;le&shy;ge ("Eco&shy;no&shy;mist"), 2001-2004
           </p>
         </div>
@@ -83,8 +83,8 @@ const Main = () => {
           <h4>Certificates:</h4>
           <p>• SKILLUP - "Front-&shy;end De&shy;ve&shy;lo&shy;per", Feb 2022</p>
           <p>
-            • Fit&shy;ness Aca&shy;de&shy;my RB - "Gym inst&shy;ruc&shy;tor",
-            Jan 2021
+            • Fit&shy;ness Aca&shy;de&shy;my - "Gym inst&shy;ruc&shy;tor", Jan
+            2021
           </p>
         </div>
       </div>
