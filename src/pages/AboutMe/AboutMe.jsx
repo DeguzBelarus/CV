@@ -7,7 +7,7 @@ const AboutMe = () => {
       <h1>About Me:</h1>
       <p className="about-paragraph">Hello, let me introduce myself.</p>
       <p className="about-paragraph">
-        I am a responsible person who is attentive to details and have some
+        I am a responsible person who is attentive to details and has some
         creativity.
       </p>
       <p className="about-paragraph">
