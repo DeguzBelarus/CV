@@ -3,7 +3,6 @@ footer {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  z-index: -1;
 
   .qr {
   }
@@ -13,6 +12,7 @@ footer {
     display: flex;
     flex-direction: column;
     margin-top: -22px;
+    z-index: 1;
 
     p {
       font-size: 14px;
