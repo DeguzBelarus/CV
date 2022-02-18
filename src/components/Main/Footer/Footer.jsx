@@ -73,12 +73,21 @@ const Footer = () => {
           </a>
         </div>
         <div className="demo-item">
+          Vanilla.js projects
           <a
             href="https://github.com/DeguzBelarus/VanillaJS"
             target="_blank"
             rel="noopener"
           >
-            Vanilla.js projects (Github, 5 items)
+            (Github
+          </a>
+          +
+          <a
+            href="https://drive.google.com/file/d/1mW5W3QWm1Im98vRdncxLddTfFJEt0JRl/view?usp=sharing"
+            target="_blank"
+            rel="noopener"
+          >
+            archive)
           </a>
         </div>
       </div>

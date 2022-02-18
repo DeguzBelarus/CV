@@ -25,6 +25,11 @@ footer {
     .demo-item {
       display: flex;
       gap: 5px;
+      font-size: 12px;
+      font-weight: bold;
+      -ms-user-select: none;
+      -webkit-user-select: none;
+      user-select: none;
 
       a {
         font-size: 12px;
