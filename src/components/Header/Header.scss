@@ -1,6 +1,7 @@
 header {
   display: flex;
   padding: 10px;
+  z-index: 3;
 
   .round {
     position: absolute;
@@ -29,6 +30,7 @@ header {
       font-weight: bolder;
       animation-name: normalize;
       animation-fill-mode: forwards;
+      z-index: 9999;
     }
 
     .l1 {
@@ -137,7 +139,7 @@ header {
   header {
     flex-direction: column;
     padding-bottom: 0;
-    overflow: hidden;
+    overflow-y: visible;
 
     .round {
       width: 580px;
