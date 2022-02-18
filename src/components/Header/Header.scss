@@ -1,7 +1,6 @@
 header {
   display: flex;
   padding: 10px;
-  z-index: -1;
 
   .round {
     position: absolute;
@@ -28,7 +27,6 @@ header {
       display: inline-block;
       font-size: 2em;
       font-weight: bolder;
-      z-index: 9999;
       animation-name: normalize;
       animation-fill-mode: forwards;
     }
