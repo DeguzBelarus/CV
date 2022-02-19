@@ -79,9 +79,9 @@ const Main = () => {
             • SKILL&shy;UP (Front-End De&shy;ve&shy;lo&shy;per, prac&shy;tice),
             2021 - 2022
           </p>
-          <p>• Tax of&shy;fi&shy;ce (tax ins&shy;pec&shy;tor), 2008 - 2021</p>
+          <p>• Tax of&shy;fi&shy;ce (Tax ins&shy;pec&shy;tor), 2008 - 2021</p>
           <p>
-            • RTMA "Car&shy;dio&shy;lo&shy;gy" (eco&shy;no&shy;mist), 2005 -
+            • RTMA "Car&shy;dio&shy;lo&shy;gy" (Eco&shy;no&shy;mist), 2005 -
             2006
           </p>
         </div>
