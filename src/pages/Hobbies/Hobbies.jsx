@@ -16,8 +16,16 @@ const Hobbies = () => {
       </p>
       <p className="hobbies-paragraph">
         I’m also interested in computer hardware and software (for instance,
-        some programs and computer games). Sometimes I like to build a computer
-        or play computer games of different genres.
+        some programs and{" "}
+        <a
+          href="https://steamcommunity.com/id/deguz/"
+          target="_blank"
+          rel="noopener"
+        >
+          computer games
+        </a>
+        ). Sometimes I like to build a computer or play computer games of
+        different genres.
       </p>
       <p className="hobbies-paragraph">
         In addition, I like animals, especially cats and fish :)
