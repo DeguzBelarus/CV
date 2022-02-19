@@ -87,7 +87,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener"
           >
-            archive)
+            .rar)
           </a>
         </div>
       </div>

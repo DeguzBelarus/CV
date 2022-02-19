@@ -28,7 +28,8 @@ const Main = () => {
 
         <div className="languages">
           <h4>Languages:</h4>
-          <p>English: A2 (in progress)</p>
+          <p>Eng&shy;lish: A2 (in prog&shy;ress)</p>
+          <p>French: A1</p>
           <p>Rus&shy;si&shy;an/Be&shy;la&shy;ru&shy;sian: na&shy;ti&shy;ve</p>
         </div>
       </div>
@@ -53,8 +54,10 @@ const Main = () => {
 
         <div className="education">
           <h4>Education:</h4>
+          <p>• Les&shy;sons with Eng&shy;lish Tu&shy;tor, 2021-now</p>
           <p>
-            • SKILLUP ("Front-&shy;end De&shy;ve&shy;lo&shy;per"), 2021-2022
+            • SKILL&shy;UP ("Front-&shy;End De&shy;ve&shy;lo&shy;per"),
+            2021-2022
           </p>
           <p>
             • Fit&shy;ness aca&shy;de&shy;my ("Gym inst&shy;ruc&shy;tor"),
@@ -81,7 +84,7 @@ const Main = () => {
 
         <div className="certificates">
           <h4>Certificates:</h4>
-          <p>• SKILLUP - "Front-&shy;end De&shy;ve&shy;lo&shy;per", Feb 2022</p>
+          <p>• SKILLUP - "Front-&shy;End De&shy;ve&shy;lo&shy;per", Feb 2022</p>
           <p>
             • Fit&shy;ness Aca&shy;de&shy;my - "Gym inst&shy;ruc&shy;tor", Jan
             2021

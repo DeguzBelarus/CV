@@ -11,13 +11,13 @@ const AboutMe = () => {
         creativity.
       </p>
       <p className="about-paragraph">
-        I have chosen Front-end because I prefer to work with the visual
+        I have chosen Front End because I prefer to work with the visual
         interface and the program/style code, not only with the program code.
         From 2006 till 2008 I made a website about bodybuilding. This site only
         used HTML and some JavaScript functionality.
       </p>
       <p className="about-paragraph">
-        I had five and a half months of non-commercial experience in Front-end
+        I had five and a half months of non-commercial experience in Front-End
         Development while taking SKILLUP courses. While working on my course
         project, I got to know some Back-end basics such as Node.js, Express,
         MongoDB and Socket.io. I have some Front-end projects and one full stack
@@ -31,11 +31,10 @@ const AboutMe = () => {
         (economist) in 2004.
       </p>
       <p className="about-paragraph">
-        I worked for the tax office for twelve and a half years from 2008 till
-        2021. Also, I worked as an economist for Regional Territorial Medical
-        Association “Cardiology” from 2005 till 2006.
+        Looking forward to your reply, I'll be happy to provide you with more
+        information and pass technical interview.
       </p>
-      <p className="about-paragraph">Best regards, Anton Dektyarev.</p>
+      <p className="about-paragraph">Regards, Anton.</p>
       <Link to={"/"}>
         <span className="return">⤺</span>
       </Link>
