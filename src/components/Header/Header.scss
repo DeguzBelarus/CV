@@ -267,8 +267,9 @@ header {
     }
 
     .headers {
-      min-width: 220px;
+      min-width: 260px;
       margin-left: 5px;
+      overflow-x: visible;
 
       .letter {
         display: inline-block;
@@ -330,7 +331,7 @@ header {
       justify-content: center;
       gap: 5px;
       margin-top: 90px;
-      margin-left: 100px;
+      margin-left: 60px;
 
       .socials-item {
         h5 {
