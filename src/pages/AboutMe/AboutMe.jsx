@@ -25,6 +25,17 @@ const AboutMe = () => {
         yourself with them.
       </p>
       <p className="about-paragraph">
+        I also practiced a bit on{" "}
+        <a
+          href="https://www.codewars.com/users/Deguz/"
+          target="_blank"
+          rel="noopener"
+        >
+          codewars
+        </a>
+        .
+      </p>
+      <p className="about-paragraph">
         I graduated from Vitebsk State Technological University with a degree in
         “Commercial activity” (economist) in 2008. Also, I graduated from
         Vitebsk State Polytechnic College with a degree in “Commercial activity”
