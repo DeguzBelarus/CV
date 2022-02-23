@@ -36,7 +36,7 @@ const AboutMe = () => {
         .
       </p>
       <p className="about-paragraph">
-        Also, I have some{" "}
+        I have some{" "}
         <a
           href="https://github.com/DeguzBelarus/React-Native-Todo"
           target="_blank"
