@@ -36,6 +36,17 @@ const AboutMe = () => {
         .
       </p>
       <p className="about-paragraph">
+        Also, I have some{" "}
+        <a
+          href="https://github.com/DeguzBelarus/React-Native-Todo"
+          target="_blank"
+          rel="noopener"
+        >
+          practice{" "}
+        </a>
+        with React Native.
+      </p>
+      <p className="about-paragraph">
         I graduated from Vitebsk State Technological University with a degree in
         “Commercial activity” (economist) in 2008. Also, I graduated from
         Vitebsk State Polytechnic College with a degree in “Commercial activity”

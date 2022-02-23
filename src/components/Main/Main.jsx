@@ -11,6 +11,7 @@ const Main = () => {
           <p>CSS3, SCSS</p>
           <p>HTML5</p>
           <p>React.js</p>
+          <p>R. Native (basic)</p>
           <p>Node.js (basic)</p>
           <p>Express (basic)</p>
           <p>Socket.io (basic)</p>
