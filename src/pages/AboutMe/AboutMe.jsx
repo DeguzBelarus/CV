@@ -25,6 +25,9 @@ const AboutMe = () => {
         yourself with them.
       </p>
       <p className="about-paragraph">
+        I understand how the backend works and interacts with the frontend.
+      </p>
+      <p className="about-paragraph">
         I also practiced a bit on{" "}
         <a
           href="https://www.codewars.com/users/Deguz/"
