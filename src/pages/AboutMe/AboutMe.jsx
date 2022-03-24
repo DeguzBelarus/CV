@@ -17,12 +17,10 @@ const AboutMe = () => {
         used HTML and some JavaScript functionality.
       </p>
       <p className="about-paragraph">
-        I had five and a half months of non-commercial experience in Front-End
-        Development while taking SKILLUP courses and a half a month after this
-        courses. While working on my course project, I got to know some Back-end
-        basics such as Node.js, Express, MongoDB and Socket.io. I have some
-        Front-end projects and one full stack (MERN) course project deployed to
-        GitHub and Heroku, you can familiarize yourself with them.
+        I have six months of non-commercial experience in Front-End Development.
+        Also, I got to know some Back-end basics such as Node.js, Express,
+        MongoDB and Socket.io. I have some projects that deployed to
+        GitHub and Heroku.
       </p>
       <p className="about-paragraph">
         I understand how the backend works and interacts with the frontend.
