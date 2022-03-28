@@ -75,7 +75,7 @@ const Main = () => {
         </div>
 
         <div className="experience">
-          <h4>Experience:</h4>
+          <h4>Xp:</h4>
           <p>
             • SKILL&shy;UP (Front-End De&shy;ve&shy;lo&shy;per, prac&shy;tice),
             2021 - 2022
