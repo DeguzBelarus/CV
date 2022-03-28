@@ -17,7 +17,7 @@ const AboutMe = () => {
         used HTML and some JavaScript functionality.
       </p>
       <p className="about-paragraph">
-        I have six months of non-commercial experience in Front-End Development.
+        I have six+ months of non-commercial experience in Front-End Development.
         Also, I got to know some Back-end basics such as Node.js, Express,
         MongoDB and Socket.io. I have some projects that deployed to
         GitHub and Heroku.
