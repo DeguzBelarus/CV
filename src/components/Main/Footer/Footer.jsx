@@ -30,7 +30,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener"
           >
-            Chat MERN-app
+            Chat app (refactoring...)
           </a>
           <a
             href="https://github.com/DeguzBelarus/MERN-Chat-App"
