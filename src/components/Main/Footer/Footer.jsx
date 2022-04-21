@@ -26,11 +26,11 @@ const Footer = () => {
         </div>
         <div className="demo-item">
           <a
-            href="https://deguz-mchat.herokuapp.com/"
+            href="https://mysn-deguz.herokuapp.com"
             target="_blank"
             rel="noopener"
           >
-            Chat app (Refactoring...)
+            Chat app (refactoring...)
           </a>
           <a
             href="https://github.com/DeguzBelarus/MERN-Chat-App"
