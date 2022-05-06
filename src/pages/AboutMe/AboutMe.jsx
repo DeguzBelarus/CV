@@ -17,10 +17,10 @@ const AboutMe = () => {
         site only used HTML and some JavaScript functionality.
       </p>
       <p className="about-paragraph">
-        I have about 7 months of non-commercial practice in Front-End
-        Development. Also, I got to know some Back-end basics such as Node.js,
-        Express, MongoDB and Socket.io. I have some projects that deployed to
-        GitHub and Heroku.
+        I have 8 months of non-commercial practice in Front-End Development.
+        Also, I got to know some Back-end basics such as Node.js, Express,
+        MongoDB and Socket.io. I have some projects that deployed to GitHub and
+        Heroku.
       </p>
       <p className="about-paragraph">
         I understand how the backend works and interacts with the frontend.
