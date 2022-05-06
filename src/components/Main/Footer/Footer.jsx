@@ -10,14 +10,14 @@ const Footer = () => {
         <p>Demos:</p>
         <div className="demo-item">
           <a
-            href="https://weather-deguz.herokuapp.com/"
+            href="https://mysn-deguz.herokuapp.com"
             target="_blank"
             rel="noopener"
           >
-            Weather app
+            Chat app
           </a>
           <a
-            href="https://github.com/DeguzBelarus/React-Weather-App"
+            href="https://github.com/DeguzBelarus/MERN-Chat-App"
             target="_blank"
             rel="noopener"
           >
@@ -26,14 +26,14 @@ const Footer = () => {
         </div>
         <div className="demo-item">
           <a
-            href="https://mysn-deguz.herokuapp.com"
+            href="https://weather-deguz.herokuapp.com/"
             target="_blank"
             rel="noopener"
           >
-            Chat app (refactoring...)
+            Weather app
           </a>
           <a
-            href="https://github.com/DeguzBelarus/MERN-Chat-App"
+            href="https://github.com/DeguzBelarus/React-Weather-App"
             target="_blank"
             rel="noopener"
           >
