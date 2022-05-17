@@ -16,7 +16,7 @@ const Footer = () => {
           >
             MySN social app
           </a>
-          <span>/ Github (private, current)</span>
+          <span>/ Github (private, actual)</span>
         </div>
         <div className="demo-item">
           <a
