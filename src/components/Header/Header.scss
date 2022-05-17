@@ -46,9 +46,20 @@ header {
         z-index: 1;
 
         &.active {
-          transform: translateX(100%);
+          transform: translateX(60%) translateY(60%);
           box-shadow: 0 0 10px 1px teal;
         }
+      }
+
+      span {
+        position: absolute;
+        bottom: 0;
+        opacity: 0;
+        font-weight: bolder;
+        color: deeppink;
+        animation-name: manifestation;
+        animation-fill-mode: forwards;
+        animation-duration: 0.5s;
       }
     }
   }
@@ -167,6 +178,12 @@ header {
   }
 }
 
+@keyframes manifestation {
+  100% {
+    opacity: 1;
+  }
+}
+
 @media screen and (min-width: 320px) {
   header {
     flex-direction: column;
@@ -194,6 +211,11 @@ header {
 
       .avatar-image {
         width: 140px;
+      }
+
+      span {
+        right: -30px;
+        font-size: 12px;
       }
     }
 
@@ -301,6 +323,11 @@ header {
 
       .avatar-image {
         width: 220px;
+      }
+
+      span {
+        right: -20px;
+        font-size: 14px;
       }
     }
 

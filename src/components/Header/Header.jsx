@@ -34,6 +34,7 @@ const Header = () => {
             alt="avatar picture"
             onClick={avatarActivehandle}
           />
+          {!avatarActive && <span>↜ Click me!</span>}
         </div>
         <div className="headers">
           <span className="letter l1">A</span>
