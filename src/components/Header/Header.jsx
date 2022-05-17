@@ -26,12 +26,15 @@ const Header = () => {
         <div
           className={!avatarActive ? "avatar-wrapper" : "avatar-wrapper active"}
         >
-          <a href="mailto:deguz@mail.ru">Напишите мне ;)</a>
+          <a href="mailto:deguz@mail.ru">
+            Напишсать мне ;)
+            <p>&#128386; ➠</p>
+          </a>
 
           <img
             src={avatar}
             className={!avatarActive ? "avatar-image" : "avatar-image active"}
-            alt="avatar picture"
+            alt="avatar"
             onClick={avatarActivehandle}
           />
           {!avatarActive && <span>↜ Click me!</span>}

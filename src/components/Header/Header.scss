@@ -30,6 +30,11 @@ header {
       a {
         font-weight: bolder;
         color: teal;
+
+        p {
+          font-size: inherit;
+          text-align: center;
+        }
       }
 
       .avatar-image {
@@ -38,6 +43,7 @@ header {
         position: absolute;
         top: 0;
         left: 0;
+        filter: saturate(140%);
         box-sizing: border-box;
         transition-property: transform, box-shadow;
         transition-duration: 0.85s;
@@ -46,7 +52,7 @@ header {
         z-index: 1;
 
         &.active {
-          transform: translateX(60%) translateY(60%);
+          transform: translateX(55%) translateY(55%);
           box-shadow: 0 0 10px 1px teal;
         }
       }
@@ -214,7 +220,7 @@ header {
       }
 
       span {
-        right: -34px;
+        right: -40px;
         font-size: 12px;
       }
     }
@@ -326,7 +332,7 @@ header {
       }
 
       span {
-        right: -20px;
+        right: -24px;
         font-size: 14px;
       }
     }
