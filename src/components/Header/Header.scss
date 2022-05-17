@@ -24,7 +24,7 @@ header {
       box-shadow: 0 0 10px 1px teal;
 
       &.active {
-        box-shadow: 0 0 10px 1px yellowgreen;
+        box-shadow: 0 0 10px 1px deeppink;
       }
 
       a {
@@ -32,27 +32,25 @@ header {
         color: teal;
       }
 
-      img {
+      .avatar-image {
+        box-sizing: border-box;
+        border-radius: 50%;
         position: absolute;
         top: 0;
         left: 0;
         box-sizing: border-box;
         transition-property: transform, box-shadow;
-        transition-duration: 1s;
+        transition-duration: 0.85s;
+        transition-timing-function: ease-out;
         cursor: pointer;
         z-index: 1;
 
         &.active {
           transform: translateX(100%);
+          box-shadow: 0 0 10px 1px teal;
         }
       }
     }
-  }
-
-  .avatar-image {
-    box-sizing: border-box;
-    border-radius: 50%;
-    box-shadow: 0 0 10px 1px teal;
   }
 
   .headers {
