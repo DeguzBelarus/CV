@@ -14,15 +14,9 @@ const Footer = () => {
             target="_blank"
             rel="noopener"
           >
-            Chat app
+            MySN social app
           </a>
-          <a
-            href="https://github.com/DeguzBelarus/MERN-Chat-App"
-            target="_blank"
-            rel="noopener"
-          >
-            + Github
-          </a>
+          <span>/ Github (private)</span>
         </div>
         <div className="demo-item">
           <a

@@ -10,7 +10,7 @@ const Header = () => {
     <header>
       <div className="round"></div>
       <div className="upper-block">
-        <div className="avatar-weapper">
+        <div className="avatar-wrapper">
           <img src={avatar} className="avatar-image" alt="avatar picture" />
         </div>
         <div className="headers">
