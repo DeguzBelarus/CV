@@ -16,7 +16,7 @@ const Footer = () => {
           >
             MySN social app
           </a>
-          <span>/ Github (private)</span>
+          <span>/ Github (private, current)</span>
         </div>
         <div className="demo-item">
           <a
@@ -31,7 +31,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener"
           >
-            + Github
+            + Github (currently outdated)
           </a>
         </div>
         <div className="demo-item">
@@ -47,7 +47,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener"
           >
-            + Github
+            + Github (outdated)
           </a>
         </div>
         <div className="demo-item">
@@ -63,7 +63,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener"
           >
-            + Github
+            + Github (outdated)
           </a>
         </div>
         <div className="demo-item">
