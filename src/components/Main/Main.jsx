@@ -11,6 +11,7 @@ const Main = () => {
           <p>CSS3, SCSS</p>
           <p>HTML5</p>
           <p>React.js</p>
+          <p>Firebase</p>
           <p>R. Native (basic)</p>
           <p>Node.js (basic)</p>
           <p>Express (basic)</p>
@@ -25,6 +26,7 @@ const Main = () => {
           <p>Critical thinking</p>
           <p>Punctuality</p>
           <p>Quick learning</p>
+          <p>Friendliness</p>
         </div>
 
         <div className="languages">
