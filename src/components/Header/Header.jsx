@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 import "./Header.scss";
 import avatar from "../../essentials/avatar.png";
 import linkedin from "../../essentials/linkedin.svg";
@@ -6,12 +8,32 @@ import location from "../../essentials/location.svg";
 import instagram from "../../essentials/instagram.svg";
 
 const Header = () => {
+  const [avatarActive, setAvatarActive] = useState(false);
+
+  const avatarActivehandle = () => {
+    if (avatarActive) {
+      setAvatarActive(false);
+    } else {
+      setAvatarActive(true);
+    }
+  };
+
   return (
     <header>
       <div className="round"></div>
+
       <div className="upper-block">
-        <div className="avatar-wrapper">
-          <img src={avatar} className="avatar-image" alt="avatar picture" />
+        <div
+          className={!avatarActive ? "avatar-wrapper" : "avatar-wrapper active"}
+        >
+          <a href="mailto:deguz@mail.ru">Напишите мне ;)</a>
+
+          <img
+            src={avatar}
+            className={!avatarActive ? "avatar-image" : "avatar-image active"}
+            alt="avatar picture"
+            onClick={avatarActivehandle}
+          />
         </div>
         <div className="headers">
           <span className="letter l1">A</span>

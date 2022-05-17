@@ -12,6 +12,41 @@ header {
 
   .upper-block {
     display: flex;
+    box-sizing: border-box;
+
+    .avatar-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      box-sizing: border-box;
+      border: none;
+      box-shadow: 0 0 10px 1px teal;
+
+      &.active {
+        box-shadow: 0 0 10px 1px yellowgreen;
+      }
+
+      a {
+        font-weight: bolder;
+        color: teal;
+      }
+
+      img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        box-sizing: border-box;
+        transition-property: transform, box-shadow;
+        transition-duration: 1s;
+        cursor: pointer;
+        z-index: 1;
+
+        &.active {
+          transform: translateX(100%);
+        }
+      }
+    }
   }
 
   .avatar-image {
@@ -402,6 +437,16 @@ header {
 
       .socials-image {
         width: 30px;
+      }
+    }
+  }
+}
+
+@media screen and (hover: hover) {
+  .avatar-wrapper {
+    .avatar-image {
+      &:hover {
+        box-shadow: 0 0 20px 1px yellow;
       }
     }
   }
