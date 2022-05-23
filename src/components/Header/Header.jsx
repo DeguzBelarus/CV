@@ -28,7 +28,7 @@ const Header = () => {
         >
           <a href="mailto:deguz@mail.ru">
             Напишсать мне ;)
-            <p>&#128386; ➠</p>
+            <p>&#9993;</p>
           </a>
 
           <img

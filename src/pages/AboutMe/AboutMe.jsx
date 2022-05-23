@@ -8,22 +8,17 @@ const AboutMe = () => {
       <p className="about-paragraph">Hello, let me introduce myself.</p>
       <p className="about-paragraph">
         I am a responsible person who is attentive to details and has some
-        creativity.
+        creativity. I have chosen Front End because I enjoy to work with the
+        visual interface and the program/style code.
       </p>
       <p className="about-paragraph">
-        I have chosen Front End because I prefer to work with the visual
-        interface and the program/style code, not only with the program code.
-        From 2006 till 2008 I made a simple website about bodybuilding. This
-        site only used HTML and some JavaScript functionality.
+        I have over almost 9 month of practice in Front-End. Also, I got to know
+        some Back-end basics such as Node.js, Express, MongoDB, Firebase and
+        Socket.io. I have practiced a lot last 9 months.
       </p>
       <p className="about-paragraph">
-        I have 8 months of non-commercial practice in Front-End Development.
-        Also, I got to know some Back-end basics such as Node.js, Express,
-        MongoDB and Socket.io. I have some projects that deployed to GitHub and
-        Heroku.
-      </p>
-      <p className="about-paragraph">
-        I understand how the backend works and interacts with the frontend.
+        Also, I understand how the backend works and interacts with the
+        frontend.
       </p>
       <p className="about-paragraph">
         I also practiced a bit on{" "}
@@ -52,6 +47,18 @@ const AboutMe = () => {
         “Commercial activity” (economist) in 2008. Also, I graduated from
         Vitebsk State Polytechnic College with a degree in “Commercial activity”
         (economist) in 2004.
+      </p>
+      <p className="about-paragraph">
+        Currently, I'm developing my{" "}
+        <a
+          href="https://mysn-deguz.herokuapp.com/"
+          target="_blank"
+          rel="noopener"
+        >
+          project{" "}
+        </a>{" "}
+        (authorization, a chat (with crypted messages) and a training sport
+        diary) using React (in future will move to Angular).
       </p>
       <p className="about-paragraph">
         Looking forward to your reply, I'll be happy to provide you with more

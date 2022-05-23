@@ -1,37 +1,70 @@
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "./Main.scss";
 
 const Main = () => {
+  const [value, setValue] = useState(0);
+
+  useEffect(() => {
+    let loadingValue = 0;
+
+    const interval = setInterval(() => {
+      loadingValue++;
+      setValue(loadingValue);
+      if (loadingValue === 100) clearInterval(interval);
+    }, 35);
+  }, []);
+
   return (
     <main>
       <div className="skills">
         <div className="skills-hard">
           <h4>Hard skills:</h4>
-          <p>JavaScript (ES6)</p>
-          <p>CSS3, SCSS</p>
-          <p>HTML5</p>
-          <p>React.js</p>
-          <p>Firebase</p>
-          <p>R. Native (basic)</p>
-          <p>Node.js (basic)</p>
-          <p>Express (basic)</p>
-          <p>Socket.io (basic)</p>
-          <p>Git</p>
+
+          {value < 100 ? (
+            <p>
+              Loading...
+              <span className="loading-value">{value}</span>%
+            </p>
+          ) : (
+            <div className="skills-wrapper">
+              <p>JavaScript (ES6)</p>
+              <p>CSS3, SCSS</p>
+              <p>HTML5</p>
+              <p>React.js</p>
+              <p>Firebase</p>
+              <p>R. Native (basic)</p>
+              <p>Node.js (basic)</p>
+              <p>Express (basic)</p>
+              <p>Socket.io (basic)</p>
+              <p>Git</p>
+            </div>
+          )}
         </div>
 
         <div className="skills-soft">
           <h4>Soft skills:</h4>
-          <p>Creativity</p>
-          <p>Adaptability</p>
-          <p>Critical thinking</p>
-          <p>Punctuality</p>
-          <p>Quick learning</p>
-          <p>Friendliness</p>
+
+          {value < 100 ? (
+            <p>
+              Loading...
+              <span className="loading-value">{value}</span>%
+            </p>
+          ) : (
+            <div className="skills-wrapper">
+              <p>Creativity</p>
+              <p>Adaptability</p>
+              <p>Critical thinking</p>
+              <p>Punctuality</p>
+              <p>Quick learning</p>
+              <p>Friendliness</p>
+            </div>
+          )}
         </div>
 
         <div className="languages">
           <h4>Languages:</h4>
-          <p>Eng&shy;lish: A2 (in prog&shy;ress)</p>
+          <p>Eng&shy;lish: A2-B1 (in prog&shy;ress)</p>
           <p>French: A1</p>
           <p>Rus&shy;si&shy;an/Be&shy;la&shy;ru&shy;sian: na&shy;ti&shy;ve</p>
         </div>
