@@ -59,8 +59,8 @@ const AboutMe = () => {
           project{" "}
         </a>{" "}
         (authorization, a chat (with crypted messages) and a training sport
-        diary) using React.js and Node.js (in future will move to Angular.js and
-        NestJS).
+        diary) using React.js and Node.js (Express.js) (in future will move to Angular.js and
+        Node.js (NestJS)).
       </p>
       <p className="about-paragraph">
         Looking forward to your reply, I'll be happy to provide you with more
