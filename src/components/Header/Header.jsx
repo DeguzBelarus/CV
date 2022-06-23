@@ -1,11 +1,11 @@
 import { useState } from "react";
 
-import "./Header.scss";
 import avatar from "../../essentials/avatar.png";
 import linkedin from "../../essentials/linkedin.svg";
 import github from "../../essentials/github.svg";
 import location from "../../essentials/location.svg";
 import instagram from "../../essentials/instagram.svg";
+import "./Header.scss";
 
 const Header = () => {
   const [avatarActive, setAvatarActive] = useState(false);
@@ -27,7 +27,7 @@ const Header = () => {
           className={!avatarActive ? "avatar-wrapper" : "avatar-wrapper active"}
         >
           <a href="mailto:deguz@mail.ru">
-            Напишсать мне ;)
+            Write me ;)
             <p>&#9993;</p>
           </a>
 
@@ -37,7 +37,7 @@ const Header = () => {
             alt="avatar"
             onClick={avatarActivehandle}
           />
-          {!avatarActive && <span>↜ Click me!</span>}
+          {!avatarActive && <span>↜ Click!</span>}
         </div>
         <div className="headers">
           <span className="letter l1">A</span>

@@ -3,8 +3,11 @@ footer {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  margin-bottom: 4px;
 
   .qr {
+    margin-left: 10px;
+    margin-right: 7px;
   }
 
   .demos {
@@ -14,12 +17,14 @@ footer {
     margin-top: -22px;
     z-index: 1;
 
-    p {
+    .demos-heading-paragraph {
+      margin-top: 16px;
       font-size: 14px;
       font-weight: bold;
       -ms-user-select: none;
       -webkit-user-select: none;
       user-select: none;
+      color: red;
     }
 
     .demo-item {
@@ -37,7 +42,7 @@ footer {
         transition: 0.2s;
 
         &:hover {
-          color: cadetblue;
+          color: white;
         }
       }
     }
@@ -45,7 +50,7 @@ footer {
 
   .square {
     box-sizing: border-box;
-    border: 3px solid teal;
+    border: 3px solid #e9d66b;
     border-top-color: transparent;
     border-left-color: transparent;
   }
@@ -61,14 +66,14 @@ footer {
     position: relative;
 
     .qr {
-      width: 80px;
+      width: 70px;
     }
 
     .square {
       width: 20px;
       height: 20px;
       position: absolute;
-      bottom: 10px;
+      bottom: 3px;
       right: 10px;
       box-sizing: border-box;
       border-top-color: transparent;
@@ -82,7 +87,7 @@ footer {
     width: 753px;
 
     .qr {
-      width: 100px;
+      width: 85px;
     }
 
     .square {
@@ -97,7 +102,7 @@ footer {
     width: 753px;
 
     .qr {
-      width: 100px;
+      width: 85px;
     }
 
     .square {
@@ -113,7 +118,7 @@ footer {
     position: relative;
 
     .qr {
-      width: 100px;
+      width: 85px;
     }
 
     .square {

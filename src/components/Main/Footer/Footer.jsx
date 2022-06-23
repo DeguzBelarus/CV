@@ -7,7 +7,7 @@ const Footer = () => {
       <img src={qrLinked} className="qr" alt="qr code linkedin" />
       <div className="square"></div>
       <div className="demos">
-        <p>Demos:</p>
+        <p className="demos-heading-paragraph">Demos:</p>
         <div className="demo-item">
           <a
             href="https://mysn-deguz.herokuapp.com"
@@ -16,7 +16,7 @@ const Footer = () => {
           >
             MySN social app
           </a>
-          <span>/ Github (private, actual)</span>
+          <span>(private, actual)</span>
         </div>
         <div className="demo-item">
           <a

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+
 import "./AboutMe.scss";
 
 const AboutMe = () => {
@@ -12,9 +13,9 @@ const AboutMe = () => {
         visual interface and the program/style code.
       </p>
       <p className="about-paragraph">
-        I have over almost 9 month of practice in Front-End. Also, I got to know
-        some Back-end basics such as Node.js, Express, MongoDB, Firebase and
-        Socket.io. I have practiced a lot last 9 months.
+        I have 10 month of practice in Front-End. Also, I got to know some
+        Back-end basics such as Node.js, Express, MongoDB, Firebase and
+        Socket.io. I have practiced a lot last 10 months.
       </p>
       <p className="about-paragraph">
         Also, I understand how the backend works and interacts with the
@@ -58,7 +59,8 @@ const AboutMe = () => {
           project{" "}
         </a>{" "}
         (authorization, a chat (with crypted messages) and a training sport
-        diary) using React (in future will move to Angular).
+        diary) using React.js and Node.js (in future will move to Angular.js and
+        NestJS).
       </p>
       <p className="about-paragraph">
         Looking forward to your reply, I'll be happy to provide you with more

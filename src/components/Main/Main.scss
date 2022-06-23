@@ -4,7 +4,7 @@ main {
   padding-bottom: 0;
 
   h4 {
-    color: teal;
+    color: red;
   }
 
   .skills {
@@ -29,13 +29,13 @@ main {
       align-items: center;
       padding: 10px;
       box-sizing: border-box;
-      border: 3px solid teal;
+      border: 3px solid #e9d66b;
       border-top-color: transparent;
       border-bottom-color: transparent;
       border-radius: 15px;
 
       .loading-value {
-        color: deeppink;
+        color: white;
       }
     }
 
@@ -47,13 +47,13 @@ main {
       align-items: center;
       padding: 10px;
       box-sizing: border-box;
-      border: 3px solid teal;
+      border: 3px solid #e9d66b;
       border-top-color: transparent;
       border-bottom-color: transparent;
       border-radius: 15px;
 
       .loading-value {
-        color: deeppink;
+        color: white;
       }
     }
 
@@ -66,7 +66,7 @@ main {
       align-items: center;
       padding: 10px;
       box-sizing: border-box;
-      border: 3px solid teal;
+      border: 3px solid #e9d66b;
       border-top-color: transparent;
       border-bottom-color: transparent;
       border-radius: 15px;
@@ -80,10 +80,14 @@ main {
     align-items: center;
     padding: 12px;
     box-sizing: border-box;
-    border: 3px solid teal;
+    border: 3px solid #e9d66b;
     border-top-color: transparent;
     border-bottom-color: transparent;
     border-radius: 15px;
+
+    h3 {
+      color: red;
+    }
 
     .about {
       width: 100%;
@@ -92,13 +96,17 @@ main {
       justify-content: flex-start;
       padding: 10px;
       box-sizing: border-box;
-      border: 3px solid teal;
+      border: 3px solid #e9d66b;
       border-top-color: transparent;
       border-bottom-color: transparent;
       border-radius: 15px;
 
       .pagelink {
-        color: deeppink;
+        color: #c734c7;
+
+        &:hover {
+          color: white;
+        }
       }
     }
 
@@ -109,7 +117,7 @@ main {
       justify-content: flex-start;
       padding: 10px;
       box-sizing: border-box;
-      border: 3px solid teal;
+      border: 3px solid #e9d66b;
       border-top-color: transparent;
       border-bottom-color: transparent;
       border-radius: 15px;
@@ -122,7 +130,7 @@ main {
       justify-content: flex-start;
       padding: 10px;
       box-sizing: border-box;
-      border: 3px solid teal;
+      border: 3px solid #e9d66b;
       border-top-color: transparent;
       border-bottom-color: transparent;
       border-radius: 15px;
@@ -135,7 +143,7 @@ main {
       justify-content: flex-start;
       padding: 10px;
       box-sizing: border-box;
-      border: 3px solid teal;
+      border: 3px solid #e9d66b;
       border-top-color: transparent;
       border-bottom-color: transparent;
       border-radius: 15px;

@@ -6,7 +6,7 @@
   margin: 10px;
   box-sizing: border-box;
   border-radius: 10px;
-  border: 2px solid black;
+  border: 2px solid #e9d66b;
 
   h1 {
     &::first-letter {
@@ -20,7 +20,7 @@
     margin-bottom: 2px;
 
     a {
-      color: deeppink;
+      color: #c734c7;
     }
   }
 
@@ -29,5 +29,9 @@
     right: 5px;
     bottom: 2px;
     font-weight: bold;
+
+    &:hover {
+      color: white;
+    }
   }
 }

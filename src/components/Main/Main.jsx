@@ -4,15 +4,23 @@ import "./Main.scss";
 
 const Main = () => {
   const [value, setValue] = useState(0);
+  const [value2, setValue2] = useState(0);
 
   useEffect(() => {
     let loadingValue = 0;
+    let loadingValue2 = 0;
 
     const interval = setInterval(() => {
       loadingValue++;
       setValue(loadingValue);
       if (loadingValue === 100) clearInterval(interval);
-    }, 35);
+    }, 70);
+
+    const interval2 = setInterval(() => {
+      loadingValue2++;
+      setValue2(loadingValue2);
+      if (loadingValue2 === 100) clearInterval(interval2);
+    }, 40);
   }, []);
 
   return (
@@ -32,11 +40,11 @@ const Main = () => {
               <p>CSS3, SCSS</p>
               <p>HTML5</p>
               <p>React.js</p>
-              <p>Firebase</p>
-              <p>R. Native (basic)</p>
+              <p>Angular (basic)</p>
               <p>Node.js (basic)</p>
               <p>Express (basic)</p>
-              <p>Socket.io (basic)</p>
+              <p>NestJS (basic)</p>
+              <p>Firebase (basic)</p>
               <p>Git</p>
             </div>
           )}
@@ -45,10 +53,10 @@ const Main = () => {
         <div className="skills-soft">
           <h4>Soft skills:</h4>
 
-          {value < 100 ? (
+          {value2 < 100 ? (
             <p>
               Loading...
-              <span className="loading-value">{value}</span>%
+              <span className="loading-value">{value2}</span>%
             </p>
           ) : (
             <div className="skills-wrapper">
@@ -64,7 +72,7 @@ const Main = () => {
 
         <div className="languages">
           <h4>Languages:</h4>
-          <p>Eng&shy;lish: A2-B1 (in prog&shy;ress)</p>
+          <p>Eng&shy;lish: B1- (in prog&shy;ress)</p>
           <p>French: A1</p>
           <p>Rus&shy;si&shy;an/Be&shy;la&shy;ru&shy;sian: na&shy;ti&shy;ve</p>
         </div>

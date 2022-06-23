@@ -7,7 +7,7 @@ header {
     position: absolute;
     box-sizing: border-box;
     border-radius: 50%;
-    box-shadow: 0 0 10px 1px teal;
+    box-shadow: 0 0 15px 1px #e9d66b;
   }
 
   .upper-block {
@@ -21,15 +21,15 @@ header {
       position: relative;
       box-sizing: border-box;
       border: none;
-      box-shadow: 0 0 10px 1px teal;
+      box-shadow: 0 0 15px 1px #e9d66b;
 
       &.active {
-        box-shadow: 0 0 10px 1px deeppink;
+        box-shadow: 0 0 15px 1px white;
       }
 
       a {
         font-weight: bolder;
-        color: teal;
+        color: #e9d66b;
 
         p {
           font-size: inherit;
@@ -53,7 +53,7 @@ header {
 
         &.active {
           transform: translateX(55%) translateY(55%);
-          box-shadow: 0 0 10px 1px teal;
+          box-shadow: 0 0 10px 1px #e9d66b;
         }
       }
 
@@ -62,16 +62,22 @@ header {
         bottom: 0;
         opacity: 0;
         font-weight: bolder;
-        color: deeppink;
+        color: red;
         animation-name: manifestation;
         animation-fill-mode: forwards;
         animation-duration: 0.5s;
+        cursor: pointer;
+
+        &:hover {
+          color: white;
+        }
       }
     }
   }
 
   .headers {
     margin-left: 5px;
+    z-index: 9999;
 
     .letter {
       display: inline-block;
@@ -79,7 +85,6 @@ header {
       font-weight: bolder;
       animation-name: normalize;
       animation-fill-mode: forwards;
-      z-index: 9999;
     }
 
     .l1 {
@@ -143,6 +148,7 @@ header {
       animation-name: flash;
       animation-duration: 2.5s;
       animation-delay: 5.6s;
+      animation-fill-mode: forwards;
     }
   }
 
@@ -157,11 +163,18 @@ header {
 
       h5 {
         margin-left: 5px;
-      }
-    }
 
-    .socials-image {
-      width: 30px;
+        &:hover {
+          color: white;
+        }
+      }
+
+      .socials-image {
+        width: 30px;
+        margin-right: 2px;
+        filter: invert(82%) sepia(93%) saturate(1352%) hue-rotate(180deg)
+          brightness(119%) contrast(100%);
+      }
     }
   }
 }
@@ -174,13 +187,13 @@ header {
 
 @keyframes flash {
   0% {
-    color: black;
+    color: #e9d66b;
   }
   50% {
-    color: #a59263;
+    color: white;
   }
   100% {
-    color: black;
+    color: white;
   }
 }
 
@@ -220,7 +233,7 @@ header {
       }
 
       span {
-        right: -40px;
+        right: -20px;
         font-size: 12px;
       }
     }
@@ -286,17 +299,18 @@ header {
     .socials {
       width: 100%;
       margin-top: 50px;
-      justify-content: space-around;
+      justify-content: center;
+      gap: 4px;
 
       .socials-item {
         h5 {
           font-size: 9px;
           margin-left: 5px;
         }
-      }
 
-      .socials-image {
-        width: 20px;
+        .socials-image {
+          width: 20px;
+        }
       }
     }
   }
@@ -332,7 +346,7 @@ header {
       }
 
       span {
-        right: -24px;
+        right: -10px;
         font-size: 14px;
       }
     }
@@ -410,10 +424,10 @@ header {
           font-size: 0.83em;
           margin-left: 5px;
         }
-      }
 
-      .socials-image {
-        width: 30px;
+        .socials-image {
+          width: 30px;
+        }
       }
     }
   }
@@ -423,6 +437,7 @@ header {
   header {
     flex-direction: row;
     padding-bottom: 0;
+
     .round {
       width: 790px;
       height: 570px;
@@ -431,7 +446,7 @@ header {
       left: -300px;
       box-sizing: border-box;
       border-radius: 50%;
-      box-shadow: 0 0 15px 1px black;
+      box-shadow: 0 0 15px 1px #e9d66b;
     }
 
     .avatar-wrapper {
@@ -472,10 +487,10 @@ header {
           font-size: 0.83em;
           margin-left: 5px;
         }
-      }
 
-      .socials-image {
-        width: 30px;
+        .socials-image {
+          width: 30px;
+        }
       }
     }
   }
