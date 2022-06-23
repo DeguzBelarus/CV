@@ -29,11 +29,15 @@ header {
 
       a {
         font-weight: bolder;
-        color: #e9d66b;
+        color: #c734c7;
 
         p {
           font-size: inherit;
           text-align: center;
+        }
+
+        &:hover {
+          color: white;
         }
       }
 
