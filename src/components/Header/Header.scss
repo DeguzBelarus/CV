@@ -66,11 +66,6 @@ header {
         animation-name: manifestation;
         animation-fill-mode: forwards;
         animation-duration: 0.5s;
-        cursor: pointer;
-
-        &:hover {
-          color: white;
-        }
       }
     }
   }
