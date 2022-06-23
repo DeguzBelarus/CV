@@ -7,7 +7,7 @@ header {
     position: absolute;
     box-sizing: border-box;
     border-radius: 50%;
-    box-shadow: 0 0 15px 1px #e9d66b;
+    box-shadow: 0 0 20px 1px #e9d66b;
   }
 
   .upper-block {
@@ -21,10 +21,10 @@ header {
       position: relative;
       box-sizing: border-box;
       border: none;
-      box-shadow: 0 0 15px 1px #e9d66b;
+      box-shadow: 0 0 20px 1px #e9d66b;
 
       &.active {
-        box-shadow: 0 0 15px 1px white;
+        box-shadow: 0 0 20px 1px white;
       }
 
       a {
