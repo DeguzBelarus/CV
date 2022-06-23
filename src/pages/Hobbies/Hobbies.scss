@@ -21,6 +21,10 @@
 
     a {
       color: #c734c7;
+
+      &:hover {
+        color: white;
+      }
     }
   }
 
