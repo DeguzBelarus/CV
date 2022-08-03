@@ -40,10 +40,10 @@ const Main = () => {
               <p>CSS3, SCSS</p>
               <p>HTML5</p>
               <p>React.js</p>
-              <p>Angular.js (basic)</p>
               <p>Node.js (basic)</p>
               <p>Express.js (basic)</p>
-              <p>NestJS (basic)</p>
+              <p>PostgreSQL (basic)</p>
+              <p>Angular.js (basic)</p>
               <p>Firebase (basic)</p>
               <p>Git</p>
             </div>

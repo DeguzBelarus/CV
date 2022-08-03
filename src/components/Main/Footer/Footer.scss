@@ -45,6 +45,12 @@ footer {
           color: white;
         }
       }
+
+      .interesting-project {
+        &:not(:hover) {
+          color: cadetblue;
+        }
+      }
     }
   }
 

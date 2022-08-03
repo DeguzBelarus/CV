@@ -13,13 +13,16 @@ const AboutMe = () => {
         visual interface and the program/style code.
       </p>
       <p className="about-paragraph">
-        I have 10 month of practice in Front-End. Also, I got to know some
-        Back-end basics such as Node.js, Express, MongoDB, Firebase and
-        Socket.io. I have practiced a lot last 10 months.
+        I have 11 months of practice in Front-End and Fullstack development.
+        Also, I got to know some Back-end and other interesting technologies
+        such as Node.js, Express.js, MongoDB, Firebase, PostgreSQL (with
+        sequelize ORM) and Socket.io. I have practiced a lot for the last 11
+        months.
       </p>
       <p className="about-paragraph">
         Also, I understand how the backend works and interacts with the
-        frontend.
+        frontend. My preferable JS Framework is React.js, but i have
+        familiarized with Angular.js and NestJS.
       </p>
       <p className="about-paragraph">
         I also practiced a bit on{" "}
@@ -50,17 +53,36 @@ const AboutMe = () => {
         (economist) in 2004.
       </p>
       <p className="about-paragraph">
-        Currently, I'm developing my{" "}
+        I have two interesting projects to show (their code is hidden, but I can
+        show it individually):
+      </p>
+      <p className="about-paragraph">
+        - I have developed a social service (I named it{" "}
         <a
           href="https://mysn-deguz.herokuapp.com/"
           target="_blank"
           rel="noopener"
         >
-          project{" "}
+          MySN{" "}
         </a>{" "}
-        (authorization, a chat (with crypted messages) and a training sport
-        diary) using React.js and Node.js (Express.js) (in future will move to Angular.js and
-        Node.js (NestJS)).
+        ): authorization, a chat (with crypted messages) and a training sport
+        diary) using React.js, ReduxTK and Node.js (Express.js) (in future I
+        would like to make a copy using Angular.js and Node.js (NestJS).
+      </p>
+      <p className="about-paragraph">
+        - Currently I am making an online store (I named it{" "}
+        <a
+          href="https://myonlinest.herokuapp.com/"
+          target="_blank"
+          rel="noopener"
+        >
+          MyOnlineStore{" "}
+        </a>{" "}
+        ) using React.js, ReduxTK and Node.js (Express.js) on backend
+        (authorization, PostgreSQL (sequelize) in core, admin panel). Currently
+        you should open it on desktop width at least 1024px width of display, I
+        have not completed adaptation yet) - demo user with admin rigts:
+        demo@demo.com 123456789.
       </p>
       <p className="about-paragraph">
         Looking forward to your reply, I'll be happy to provide you with more

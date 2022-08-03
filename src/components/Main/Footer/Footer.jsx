@@ -10,11 +10,23 @@ const Footer = () => {
         <p className="demos-heading-paragraph">Demos:</p>
         <div className="demo-item">
           <a
-            href="https://mysn-deguz.herokuapp.com"
+            className="interesting-project"
+            href="https://mysn-deguz.herokuapp.com/"
             target="_blank"
             rel="noopener"
           >
             MySN social app
+          </a>
+          <span>(private, actual)</span>
+        </div>
+        <div className="demo-item">
+          <a
+            className="interesting-project"
+            href="https://myonlinest.herokuapp.com/"
+            target="_blank"
+            rel="noopener"
+          >
+            MyOnlineStore
           </a>
           <span>(private, actual)</span>
         </div>
@@ -64,24 +76,6 @@ const Footer = () => {
             rel="noopener"
           >
             + Github (old)
-          </a>
-        </div>
-        <div className="demo-item">
-          Vanilla.js projects
-          <a
-            href="https://github.com/DeguzBelarus/VanillaJS"
-            target="_blank"
-            rel="noopener"
-          >
-            (Github
-          </a>
-          +
-          <a
-            href="https://drive.google.com/file/d/1mW5W3QWm1Im98vRdncxLddTfFJEt0JRl/view?usp=sharing"
-            target="_blank"
-            rel="noopener"
-          >
-            .rar)
           </a>
         </div>
       </div>
