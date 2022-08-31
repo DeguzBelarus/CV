@@ -15,7 +15,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener"
           >
-            MySN social app
+            MySN
           </a>
           <span>(private, actual)</span>
         </div>
