@@ -13,16 +13,15 @@ const AboutMe = () => {
         visual interface and the program/style code.
       </p>
       <p className="about-paragraph">
-        I have 11 months of practice in Front-End and Fullstack development.
-        Also, I got to know some Back-end and other interesting technologies
-        such as Node.js, Express.js, MongoDB, Firebase, PostgreSQL (with
-        sequelize ORM) and Socket.io. I have practiced a lot for the last 11
-        months.
+        I have 1 year of practice in Front-End and Fullstack development. Also,
+        I got to know some Back-end and other interesting technologies such as
+        Node.js, Express.js, MongoDB, Firebase, PostgreSQL (with sequelize ORM)
+        and Socket.io. I have practiced a lot for the last year.
       </p>
       <p className="about-paragraph">
         Also, I understand how the backend works and interacts with the
         frontend. My preferable JS Framework is React.js, but i have
-        familiarized with Angular.js and NestJS.
+        familiarized also with Angular.js and NestJS.
       </p>
       <p className="about-paragraph">
         I also practiced a bit on{" "}
@@ -66,8 +65,8 @@ const AboutMe = () => {
           MySN{" "}
         </a>{" "}
         ): authorization, a chat (with crypted messages) and a training sport
-        diary) using React.js, ReduxTK and Node.js (Express.js) (in future I
-        would like to make a copy using Angular.js and Node.js (NestJS).
+        diary using React.js, ReduxTK, Node.js (Express.js), MongoDB{"->"}
+        PostgreSQL (sequelize), socket.io, Firebase, SCSS.
       </p>
       <p className="about-paragraph">
         - Currently I am making an online store (I named it{" "}
@@ -78,10 +77,10 @@ const AboutMe = () => {
         >
           MyOnlineStore{" "}
         </a>{" "}
-        ) using React.js, ReduxTK and Node.js (Express.js) on backend
-        (authorization, PostgreSQL (sequelize) in core, admin panel). Currently
-        you should open it on desktop width at least 1024px width of display, I
-        have not completed adaptation yet) - demo user with admin rigts:
+        ) using React.js, ReduxTK, Node.js (Express.js), PostgreSQL (sequelize),
+        SCSS with admin panel. Currently, you should open it on desktop with at
+        least 1024px of display width, I have not completed adaptation yet -
+        please log in as demo user with admin rigts to check admin panel:
         demo@demo.com 123456789.
       </p>
       <p className="about-paragraph">
