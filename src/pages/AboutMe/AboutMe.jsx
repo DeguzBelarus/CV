@@ -13,10 +13,10 @@ const AboutMe = () => {
         visual interface and the program/style code.
       </p>
       <p className="about-paragraph">
-        I have 1 year of practice in Front-End and Fullstack development. Also,
+        I have 1+ year of practice in Front-End and Fullstack development. Also,
         I got to know some Back-end and other interesting technologies such as
         Node.js, Express.js, MongoDB, Firebase, PostgreSQL (with sequelize ORM)
-        and Socket.io. I have practiced a lot for the last year.
+        and Socket.io. I have been practicing a lot for more than one year.
       </p>
       <p className="about-paragraph">
         Also, I understand how the backend works and interacts with the
@@ -56,7 +56,7 @@ const AboutMe = () => {
         show it individually):
       </p>
       <p className="about-paragraph">
-        - I have developed a social service (I named it{" "}
+        - I'm developing a social service (I named it{" "}
         <a
           href="https://mysn-deguz.herokuapp.com/"
           target="_blank"
@@ -69,7 +69,7 @@ const AboutMe = () => {
         PostgreSQL (sequelize), socket.io, Firebase, SCSS.
       </p>
       <p className="about-paragraph">
-        - Currently I am making an online store (I named it{" "}
+        - And also, I'm making an online store (I named it{" "}
         <a
           href="https://myonlinest.herokuapp.com/"
           target="_blank"
@@ -80,7 +80,7 @@ const AboutMe = () => {
         ) using React.js, ReduxTK, Node.js (Express.js), PostgreSQL (sequelize),
         SCSS with admin panel. Currently, you should open it on desktop with at
         least 1024px of display width, I have not completed adaptation yet -
-        please log in as demo user with admin rigts to check admin panel:
+        please log in as demo user with admin rights to check admin panel:
         demo@demo.com 123456789.
       </p>
       <p className="about-paragraph">

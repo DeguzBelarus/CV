@@ -43,7 +43,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener"
           >
-            + Github (old)
+            + Github (outdated)
           </a>
         </div>
         <div className="demo-item">
@@ -59,7 +59,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener"
           >
-            + Github (old)
+            + Github (outdated)
           </a>
         </div>
         <div className="demo-item">
@@ -75,7 +75,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener"
           >
-            + Github (old)
+            + Github (outdated)
           </a>
         </div>
       </div>
