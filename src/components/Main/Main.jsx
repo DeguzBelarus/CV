@@ -99,9 +99,8 @@ const Main = () => {
         <div className="education">
           <h4>Education:</h4>
           <p>
-            • The Rol&shy;ling Sco&shy;pes School
-            ("Ja&shy;va&shy;Script/Front-&shy;End De&shy;ve&shy;lo&shy;per"),
-            2022-now
+            • The Rol&shy;ling Sco&shy;pes School ("JavaScript/Front-&shy;End
+            De&shy;ve&shy;lo&shy;per"), 2022-now
           </p>{" "}
           <p>• Les&shy;sons with Eng&shy;lish Tu&shy;tor, 2021-now</p>
           <p>
@@ -125,9 +124,8 @@ const Main = () => {
         <div className="experience">
           <h4>Xp:</h4>
           <p>
-            • The Rol&shy;ling Sco&shy;pes School
-            (Ja&shy;va&shy;Script/Front-End De&shy;ve&shy;lo&shy;per,
-            prac&shy;tice), 2022 - now
+            • The Rol&shy;ling Sco&shy;pes School (JavaScript/Front-End
+            De&shy;ve&shy;lo&shy;per, prac&shy;tice), 2022 - now
           </p>
           <p>
             • SKILL&shy;UP (Front-End De&shy;ve&shy;lo&shy;per, prac&shy;tice),
