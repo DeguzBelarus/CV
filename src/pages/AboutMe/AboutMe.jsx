@@ -26,7 +26,7 @@ const AboutMe = () => {
       <p className="about-paragraph">
         I also practiced a bit on{" "}
         <a
-          href="https://www.codewars.com/users/Deguz/"
+          href="https://www.codewars.com/users/rsschool_361f0f1768cdb5a7"
           target="_blank"
           rel="noopener"
         >
